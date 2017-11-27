@@ -11,7 +11,7 @@ sudo apt install firefox
 sudo apt install vim-gnome
 
 # SSH
-
+sudo apt install openssh-server
 
 # Git
 sudo apt install git
