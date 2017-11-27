@@ -19,6 +19,8 @@ set ruler
 set esckeys
 " Enable mouse in all modes
 set mouse=a
+" Copy to clipboard
+set clipboard=unnamed " or unnamedplus
 " Show the current mode
 set showmode
 
