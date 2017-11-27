@@ -1,0 +1,30 @@
+#!/bin/bash
+
+function reminder() {
+  echo "bc"
+  echo -e "\tbasic calculator"
+  
+  echo "curl -H 'header' -c 'cookie' --proxy ip:port url"
+  echo -e "\tsee url"
+
+  echo "du -h path/to/directory/or/file"
+  echo -e "\tdisk used by file"
+
+  echo -e "find path/to/directory -name \"pattern\""
+  echo -e "\trecursively find all files with matching name"
+
+  echo -e "grep path/to/directory -rl -e \"pattern\""
+  echo -e "\trecursively find all files with matching content"
+
+  echo -e "grep path/to/file -l -e \"pattern\""
+  echo -e "\tfind all occurrences of a pattern in a file"
+
+  echo "ps -A"
+  echo -e "\tshow all processes"
+
+  echo "tar -c -zv path/to/directory/or/file -f compressed/file.tar.gz"
+  echo -e "\tcompress file"
+  
+  echo "tar -x -zv compressed/file.tar.gz"
+  echo -e "\tuncompress file"
+}
