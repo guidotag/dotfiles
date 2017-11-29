@@ -1,7 +1,7 @@
 function! Tabs(spaces)
-  " Width of existing tabs
+  " Existing tabs width
   let &tabstop=a:spaces
-  " Width of pressed tabs
+  " Pressed tabs width
   let &softtabstop=a:spaces
   " Space difference between consecutive levels of indentation 
   let &shiftwidth=a:spaces
