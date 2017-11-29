@@ -28,7 +28,7 @@ set showmode
 execute pathogen#infect()
 
 " ================ Indentation =======================
-Tabs(2)
+call Tabs(2)
 " Correct indentation
 set smartindent
 " Tabs are spaces
