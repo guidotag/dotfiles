@@ -1,8 +1,10 @@
 function! Tabs(spaces)
-  " Existing tabs width
+  " Width of existing tabs
   let &tabstop=a:spaces
-  " Inserted tabs width
+  " Width of pressed tabs
   let &softtabstop=a:spaces
+  " Space difference between consecutive levels of indentation 
+  let &shiftwidth=a:spaces
 endfunc
 
 " Line numbering on
