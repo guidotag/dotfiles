@@ -1,8 +1,8 @@
 function! Tabs(spaces)
-	" Existing tabs width
-	let &tabstop=a:spaces
-	" Inserted tabs width
-	let &softtabstop=a:spaces
+  " Existing tabs width
+  let &tabstop=a:spaces
+  " Inserted tabs width
+  let &softtabstop=a:spaces
 endfunc
 
 " Line numbering on
@@ -28,10 +28,7 @@ set showmode
 execute pathogen#infect()
 
 " ================ Indentation =======================
-" Existing tabs width
-set tabstop=2
-" Inserted tabs width
-set softtabstop=2
+Tabs(2)
 " Correct indentation
 set smartindent
 " Tabs are spaces
