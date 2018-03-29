@@ -36,3 +36,8 @@ sudo apt install default-jdk
 
 # Inkscape
 sudo apt install inkscape
+
+#Python
+sudo apt install python-pip
+sudo pip install matplotlib
+

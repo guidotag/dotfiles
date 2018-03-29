@@ -10,17 +10,24 @@ function reminder() {
   echo "du -h path/to/directory/or/file"
   echo -e "\tdisk used by file"
 
+  echo "sudo apt install ./package.deb"
+  echo "sudo apt remove --purge package"
+  echo -e "\tinstall and remove packages"
+
+  echo "apt list --installed"
+  echo -e "\tshows installed packages"
+
   echo -e "find path/to/directory -name \"pattern\""
   echo -e "\trecursively find all files with matching name"
+
+  echo -e "free -m"
+  echo -e "\tshows memory usage (in MB)"
 
   echo -e "grep path/to/directory -rl -e \"pattern\""
   echo -e "\trecursively find all files with matching content"
 
   echo -e "grep path/to/file -l -e \"pattern\""
   echo -e "\tfind all occurrences of a pattern in a file"
-
-  echo "ps -A"
-  echo -e "\tshow all processes"
 
   echo "tar -c -zv path/to/directory/or/file -f compressed/file.tar.gz"
   echo -e "\tcompress file"

@@ -39,6 +39,9 @@ set expandtab
 set autoindent
 " Use tabs for Makefile
 autocmd FileType make setlocal noexpandtab
+autocmd Filetype python 
+
+
 
 " Syntax highlighting
 syntax enable
