@@ -32,6 +32,6 @@ function reminder() {
   echo "tar -c -zv path/to/directory/or/file -f compressed/file.tar.gz"
   echo -e "\tcompress file"
   
-  echo "tar -x -zv compressed/file.tar.gz"
+  echo "tar -x -zv -f compressed/file.tar.gz -C path/to/directory"
   echo -e "\tuncompress file"
 }
